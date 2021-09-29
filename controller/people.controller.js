@@ -52,7 +52,7 @@ ctrlpeople.routPost = async(req, res) => {
         res.json({ msg: "alumno cargado correctamente" })
     }
     //controler para el update de la planilla del alumno
-ctrlpeople.routUpdate = async(req, res) => {
+ctrlpeople.routPut = async(req, res) => {
     const {
         nombre,
         titulos,

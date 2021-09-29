@@ -4,13 +4,13 @@ const {
     routGet,
     routPost,
     routDelete,
-    routUpdate
+    routPut
 } = require('../controller/people.controller');
 
 
 router.post('/', routPost)
 router.get('/', routGet)
-router.update('/', routUpdate)
+router.put('/', routPut)
 router.delete('/', routDelete)
 
 module.exports = router;
